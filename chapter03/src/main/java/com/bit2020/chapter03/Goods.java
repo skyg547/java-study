@@ -39,4 +39,20 @@ public class Goods {
 		this.name = name;
 	}
 	
+	public void showInfo() {
+		
+		System.out.println(
+				"상품이름 : " + name +
+				", 가격 : " + price +
+				", 재고개수 : " + countStock +
+				", 팔린 갯수 : " + countSold
+				);
+		
+	}
+	
+	public int calculateDiscountPrice(double percentage) {
+				
+		return (int)(price * percentage/100);
+	}
+	
 }

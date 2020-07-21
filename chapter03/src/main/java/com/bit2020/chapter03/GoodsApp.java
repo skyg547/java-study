@@ -14,6 +14,9 @@ public class GoodsApp {
 		
 		System.out.println(camera);
 		
+		camera.showInfo();
+		System.out.println(camera.calculateDiscountPrice(50));
+		
 
 	}
 
