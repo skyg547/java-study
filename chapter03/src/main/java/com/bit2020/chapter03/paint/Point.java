@@ -1,9 +1,15 @@
 package com.bit2020.chapter03.paint;
 
-public class Point {
+public class Point implements Drawable {
 	private int x;
 	private int y;
 	
+	
+	@Override
+	public void draw() {
+		// TODO Auto-generated method stub
+		show(true);
+	}
 	
 	public Point(int x, int y) {
 		// TODO Auto-generated constructor stub
@@ -26,6 +32,7 @@ public class Point {
 	public void setY(int y) {
 		this.y = y;
 	}
+	
 	
 	public void show() {
 		
