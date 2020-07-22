@@ -1,4 +1,4 @@
-package com.bit2020.paint;
+package com.bit2020.chapter03.paint;
 
 public class MainApp {
 
@@ -12,7 +12,11 @@ public class MainApp {
 		point1.setX(x);
 		point1.setY(y);
 		
+		Point point2 = new Point(50, 50);
+
 		drawPoint(point1);
+		drawPoint(point2);
+		point2.show(false);
 	}
 
 	public static void drawPoint(Point pt) {

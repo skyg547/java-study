@@ -1,7 +1,13 @@
 package com.bit2020.chapter03;
 
 public class GoodsApp {
-
+	
+	public static int i = 0;
+	
+	public static void test() {
+		
+	}
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		

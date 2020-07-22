@@ -8,10 +8,17 @@ public class Goods {
 	private String name;
 	
 	public static int countofGodds = 0;
-	
-	
+		
+	public Goods(int price, int countSold, int countStock, String name) {
+		this();
+		this.price = price;
+		this.countSold = countSold;
+		this.countStock = countStock;
+		this.name = name;
+	}
+
 	public Goods() {
-		countofGodds = countofGodds + 1 ;
+		countofGodds = countofGodds + 10;
 	}
 	
 	public int getPrice() {
