@@ -1,4 +1,4 @@
-package com.bit2020.chapter03.paint;
+package com.bit2020.paint.shape;
 
 public class Circle extends Shape {
 
@@ -11,6 +11,12 @@ public class Circle extends Shape {
 	public void draw() {
 		// TODO Auto-generated method stub
 		System.out.println("원을 그렷씁니다.");
+	}
+
+	
+public int calcPerimeter() {
+		
+		return (int)((radius)*(2)*Math.PI);
 	}
 
 }

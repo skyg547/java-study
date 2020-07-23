@@ -1,4 +1,4 @@
-package com.bit2020.chapter03.paint;
+package com.bit2020.paint.shape;
 
 public class Triangle extends Shape{
 	
@@ -14,6 +14,8 @@ public class Triangle extends Shape{
 		
 		System.out.println("삼각형을 그렸습니다.");
 	}
-
+	public int calcPerimeter() {
+		return 0;
+	}
 	
 }
