@@ -19,16 +19,16 @@ public class Prob04 {
 		
 		for (int i = 0; i < result.length/2; i++) {
 			char temp = result[i];
-			result[i] = result[result.length - i];
-			result[result.length - i] = temp;
+			result[i] = result[result.length - i-1];
+			result[result.length - i -1] = temp;
 		}
 		return result; 
 	}
 
 	public static void printCharArray(char[] array){
 		/* 코드�? ?��?��?��?��?�� */
-		for (int i = 0; i < c.length; i++) {
-			System.out.print(c[i]);
+		for (int i = 0; i < array.length; i++) {
+			System.out.print(array[i]);
 		}
 		System.out.println();
 	}
