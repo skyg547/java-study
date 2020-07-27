@@ -1,4 +1,4 @@
-package com.bit2020.chapter04.stream;
+package com.bit2020.chapter04.io;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -19,6 +19,8 @@ public class FileCopy {
 			int data = -1;
 			data = is.read();
 			os = new FileOutputStream("./dooly3.jpg");
+			os.write(data);
+			
 		} catch (FileNotFoundException e) {
 
 			System.out.println("파일이 없습니다." + e);
