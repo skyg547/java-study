@@ -1,0 +1,2 @@
+Main-Class: 경로.Main
+Class-Path: lib\logBack-classic.jar lib\logback-core.jar lib\slf4j-api.jar
